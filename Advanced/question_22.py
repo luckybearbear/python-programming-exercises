@@ -19,3 +19,22 @@ to:1
 
 提示：输入数据应假设为控制台输入。
 """
+
+s = input()
+
+# 先分割
+words = s.split(" ")
+
+count = {}
+for word in words:
+    if word in count:
+        count[word] += 1
+    else:
+        count[word] = 1
+
+# 按照字母排序
+sorted_words = sorted(count.keys())
+
+# 按格式输出
+for w in sorted_words:
+    print(f"{w}:{count[w]}")
