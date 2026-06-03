@@ -3,3 +3,10 @@
 
 提示：使用 ** 运算符。
 """
+
+
+def square(num):
+    return num**2
+
+
+print(square('12A'))
