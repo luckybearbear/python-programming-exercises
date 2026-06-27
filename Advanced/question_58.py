@@ -7,3 +7,14 @@
 
 提示：使用 \\w 匹配字母，使用 re 模块的正则表达式提取。
 """
+import re
+
+email = input()
+
+# 正则匹配：@后面 .com前面的字母部分
+pattern = r"(\w+)@(\w+)\.com"
+
+match = re.match(pattern, email)
+
+if match:
+    print(match.group(1))
