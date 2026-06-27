@@ -5,7 +5,7 @@
 """
 
 def int2Str(num: int) -> str:
-    return str(num)
+    print(str(num))
 
-if __name__ == "__main__":
-    print(int2Str(12))
+#测试示例
+int2Str(12)
