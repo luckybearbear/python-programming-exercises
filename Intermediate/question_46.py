@@ -6,3 +6,9 @@
 - 使用 filter() 过滤列表元素。
 - 使用 lambda 定义匿名函数。
 """
+
+init_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+res = map(lambda x: x**2, filter(lambda x: x % 2 == 0, init_list))
+
+print(list(res))

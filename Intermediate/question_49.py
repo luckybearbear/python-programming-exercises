@@ -6,3 +6,6 @@
 - 使用 map() 生成新列表。
 - 使用 lambda 定义匿名函数。
 """
+res = map(lambda x : x ** 2, filter(lambda x : x % 2 == 0, range(1, 21)))
+
+print(list(res))

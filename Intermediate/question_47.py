@@ -5,3 +5,6 @@
 - 使用 filter() 过滤列表元素。
 - 使用 lambda 定义匿名函数。
 """
+res = filter(lambda x : x % 2 == 0, range(1, 21))
+
+print(list(res))

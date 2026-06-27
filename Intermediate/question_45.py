@@ -6,3 +6,9 @@
 - 使用 lambda 定义匿名函数。
 - 注意：Python 3 中 map() 返回迭代器，需用 list() 转换后打印。
 """
+
+init_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+res = map(lambda x: x**2, init_list)
+
+print(list(res))
