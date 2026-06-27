@@ -6,3 +6,14 @@
 - 使用 ** 运算符计算幂次。
 - 使用 range() 进行循环。
 """
+
+
+def print_square_dict():
+    num_dict = {}
+    for i in range(1, 21):
+        num_dict[i] = i**2
+
+    print(num_dict)
+
+
+print_square_dict()

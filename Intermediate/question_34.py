@@ -7,3 +7,15 @@
 - 使用 range() 进行循环。
 - 使用 dict.items() 获取键值对。
 """
+
+
+def print_dict_values():
+    num_dict = {}
+    for i in range(1, 21):
+        num_dict[i] = i**2
+
+    for k, v in num_dict.items():
+        print(v)
+
+
+print_dict_values()

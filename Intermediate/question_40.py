@@ -7,3 +7,13 @@
 - 使用 list.append() 向列表添加元素。
 - 使用 tuple() 将列表转换为元组。
 """
+
+
+def print_tuple():
+    num_list = []
+    for i in range(1, 21):
+        num_list.append(i**2)
+    print(tuple(num_list))
+
+
+print_tuple()

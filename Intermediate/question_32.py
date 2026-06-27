@@ -5,3 +5,17 @@
 - 使用 dict[key]=value 向字典中添加条目。
 - 使用 ** 运算符计算幂次。
 """
+
+def print_square_dict():
+    # 创建一个空字典
+    num_dict = {}
+
+    # 向字典添加key 1、2、3,值为对应key的平方
+    num_dict[1] = 1 ** 2
+    num_dict[2] = 2 ** 2
+    num_dict[3] = 3 ** 2
+
+    print(num_dict)
+
+print_square_dict()
+

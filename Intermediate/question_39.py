@@ -7,3 +7,13 @@
 - 使用 list.append() 向列表添加元素。
 - 使用 [n1:n2] 对列表进行切片。
 """
+
+
+def print_list():
+    num_list = []
+    for i in range(1, 21):
+        num_list.append(i**2)
+    print(num_list[5:])
+
+
+print_list()

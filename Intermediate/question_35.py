@@ -7,3 +7,15 @@
 - 使用 range() 进行循环。
 - 使用 dict.keys() 获取所有键。
 """
+
+
+def print_dict_keys():
+    num_dict = {}
+    for i in range(1, 21):
+        num_dict[i] = i**2
+
+    for k in num_dict.keys():
+        print(k)
+
+
+print_dict_keys()
