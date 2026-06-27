@@ -3,3 +3,11 @@
 
 提示：使用 class 子类名(父类名) 的语法定义子类。
 """
+
+
+class China:
+    pass
+
+
+class SuZhou(China):
+    pass

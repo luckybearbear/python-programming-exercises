@@ -3,3 +3,6 @@
 
 提示：使用 raise 语句抛出异常。
 """
+
+
+raise RuntimeError("111")

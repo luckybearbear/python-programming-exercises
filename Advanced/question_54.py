@@ -4,3 +4,24 @@
 
 提示：在子类中定义与父类同名的方法即可实现方法重写（override）。
 """
+
+
+# 图形基类
+class Shape:
+    def __init__(self):
+        pass
+
+    def area(self):
+        return 0
+
+
+class Square(Shape):
+    def __init__(self, side):
+        Shape.__init__(self)
+        self.side = side
+
+    def area(self):
+        return self.side**2
+
+
+print(Square(6).area())
