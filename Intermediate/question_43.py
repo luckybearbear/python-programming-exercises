@@ -3,3 +3,10 @@
 
 提示：使用 if 语句进行条件判断。
 """
+
+input_s = input()
+
+if input_s == "yes" or input_s == "YES" or input_s == "Yes":
+    print("Yes")
+else:
+    print("No")
